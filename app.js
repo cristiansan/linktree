@@ -1,16 +1,18 @@
 const App = () => {
     // Sample data for links
     const links = [
-        { name: 'GitHub', url: 'https://github.com/your-username' },
-        { name: 'Twitter', url: 'https://twitter.com/your-username' },
-        { name: 'LinkedIn', url: 'https://linkedin.com/in/your-username' },
-        { name: 'Instagram', url: 'https://instagram.com/your-username' },
+        { name: 'freebike', url: 'https://github.com/cristiansan/freebike' },
+        { name: 'cocrearte', url: 'https://github.com/cristiansan/cocrearte' },
+        { name: 'scoreboard', url: 'https://github.com/cristiansan/scoreboard' },
+        { name: 'token', url: 'https://github.com/cristiansan/token' },
+        { name: 'red social', url: 'https://github.com/cristiansan/redsocial' },
+        { name: 'multi', url: 'https://github.com/cristiansan/multi' },
     ];
 
     return (
         <div className="container">
-            <img src="https://via.placeholder.com/150" alt="Profile" className="profile-pic" />
-            <h1>@YourUsername</h1>
+            <img src="https://avatars.githubusercontent.com/u/7384512?s=400&u=95925e626b3a491379fc8debd45b075a99b6ddcb&v=4" alt="Profile" className="profile-pic" />
+            <h1>@cristiansan</h1>
             <div className="links">
                 {links.map(link => (
                     <a href={link.url} key={link.name} className="link" target="_blank" rel="noopener noreferrer">
