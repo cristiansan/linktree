@@ -1,12 +1,9 @@
 const App = () => {
     // Sample data for links
     const links = [
-        { name: 'freebike', url: 'https://github.com/cristiansan/freebike' },
-        { name: 'cocrearte', url: 'https://github.com/cristiansan/cocrearte' },
-        { name: 'scoreboard', url: 'https://github.com/cristiansan/scoreboard' },
-        { name: 'token', url: 'https://github.com/cristiansan/token' },
-        { name: 'red social', url: 'https://github.com/cristiansan/redsocial' },
-        { name: 'multi', url: 'https://github.com/cristiansan/multi' },
+        { name: 'Linktree', url: 'https://cristiansan.github.io/linktree/' },
+        { name: 'Freebike', url: 'https://cristiansan.github.io/freebike/' },
+        { name: 'Cocrearte', url: 'https://cristiansan.github.io/cocrearte/' },
     ];
 
     return (
@@ -20,6 +17,7 @@ const App = () => {
                     </a>
                 ))}
             </div>
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cristiansan&layout=compact&theme=dark" alt="GitHub Stats" className="github-stats" />
         </div>
     );
 };
