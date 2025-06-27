@@ -4,6 +4,7 @@ const App = () => {
         { name: 'Linktree', url: 'https://cristiansan.github.io/linktree/' },
         { name: 'Freebike', url: 'https://cristiansan.github.io/freebike/' },
         { name: 'Cocrearte', url: 'https://cristiansan.github.io/cocrearte/' },
+        { name: 'Carrito', url: 'https://cristiansan.github.io/Carrito/' },
     ];
 
     return (
