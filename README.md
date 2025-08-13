@@ -1,3 +1,5 @@
+![Imagen](https://github.com/user-attachments/assets/9be3ba97-618a-424c-b8c1-c8411d83cc1d)
+
 ## Linktree personal de @cristiansan
 
 Construí una app tipo Linktree para centralizar mis proyectos y redes con una estética minimalista estilo terminal (verde sobre fondo oscuro). Está hecha con HTML y React 18 (UMD) usando Babel en el navegador, por lo que no requiere build ni dependencias adicionales.
