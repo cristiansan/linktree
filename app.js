@@ -5,6 +5,7 @@ const App = () => {
         { name: 'Freebike', url: 'https://cristiansan.github.io/freebike/' },
         { name: 'Cocrearte', url: 'https://cristiansan.github.io/cocrearte/' },
         { name: 'Carrito', url: 'https://cristiansan.github.io/Carrito/' },
+		{ name: 'Golf', url: 'https://cristiansan.github.io/golf/' },
     ];
 
     return (
