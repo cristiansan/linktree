@@ -2,14 +2,16 @@ const App = () => {
     // Sample data for links
     const links = [
         { name: 'Linktree', url: 'https://cristiansan.github.io/linktree/' },
-        { name: 'Freebike', url: 'https://cristiansan.github.io/freebike/' },
+        { name: 'Freebike', url: 'https://tangolytics.github.io/freebike/' },
         { name: 'Cocrearte', url: 'https://cristiansan.github.io/cocrearte/' },
         { name: 'Carrito', url: 'https://cristiansan.github.io/Carrito/' },
 		{ name: 'Golf', url: 'https://cristiansan.github.io/golf/' },
+        { name: 'MiniGalaga', url: 'https://cristiansan.github.io/MiniGalaga/galaga.html' },
     ];
 
     return (
         <div className="container">
+            <span className="version-tag">v0.1</span>
             <img src="https://avatars.githubusercontent.com/u/7384512?s=400&u=95925e626b3a491379fc8debd45b075a99b6ddcb&v=4" alt="Profile" className="profile-image" />
             <h1 className="name">@cristiansan</h1>
             <p className="description">"Desarroll Ando y Constru Yendo"</p>

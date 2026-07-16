@@ -27,6 +27,16 @@
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
+    position: relative;
+  }
+
+  .version-tag {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: var(--text-secondary);
+    font-size: 0.75rem;
+    opacity: 0.7;
   }
 
   .terminal-comment {
